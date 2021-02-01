@@ -1,7 +1,7 @@
-package com.nyp.sit.movieviewer_intermediate_starter_project
+package com.nyp.sit.movieviewer_advanced_starter_project
 
 import android.content.Context
-import com.nyp.sit.movieviewer_intermediate_starter_project.entity.MovieItem
+import com.nyp.sit.movieviewer_advanced_starter_project.entity.MovieItem
 import org.json.JSONArray
 
 import org.json.JSONException

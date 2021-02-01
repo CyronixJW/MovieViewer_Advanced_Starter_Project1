@@ -1,6 +1,6 @@
-package com.nyp.sit.movieviewer_intermediate_starter_project
+package com.nyp.sit.movieviewer_advanced_starter_project
 
-import com.nyp.sit.movieviewer_intermediate_starter_project.entity.MovieItem
+import com.nyp.sit.movieviewer_advanced_starter_project.entity.MovieItem
 
 class MoviesRepository(private val moviesDao: MovieItemDAO) {
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.nyp.sit.movieviewer_intermediate_starter_project">
+    package="com.nyp.sit.movieviewer_advanced_starter_project">
 
     <application
         android:allowBackup="true"
@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MovieViewer_Intermediate_Starter_Project"
-        android:name=".MyMovies">
-        <activity android:name=".ViewListOfMoviesActivity" android:configChanges="orientation|screenSize">
+        android:name="com.nyp.sit.movieviewer_advanced_starter_project.MyMovies">
+        <activity android:name="com.nyp.sit.movieviewer_advanced_starter_project.ViewListOfMoviesActivity" android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -18,7 +18,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ItemDetailActivity" android:parentActivityName=".ViewListOfMoviesActivity"/>
+        <activity android:name="com.nyp.sit.movieviewer_advanced_starter_project.ItemDetailActivity" android:parentActivityName="com.nyp.sit.movieviewer_advanced_starter_project.ViewListOfMoviesActivity"/>
 
     </application>
 

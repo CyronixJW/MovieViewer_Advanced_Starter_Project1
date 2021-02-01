@@ -1,4 +1,4 @@
-package com.nyp.sit.movieviewer_intermediate_starter_project
+package com.nyp.sit.movieviewer_advanced_starter_project
 
 import org.junit.Test
 

@@ -10,7 +10,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.nyp.sit.movieviewer_intermediate_starter_project"
+        applicationId "com.nyp.sit.movieviewer_advanced_starter_project"
         minSdkVersion 26
         targetSdkVersion 30
         versionCode 1

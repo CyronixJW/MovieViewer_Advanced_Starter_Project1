@@ -1,9 +1,9 @@
-package com.nyp.sit.movieviewer_intermediate_starter_project
+package com.nyp.sit.movieviewer_advanced_starter_project
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.nyp.sit.movieviewer_intermediate_starter_project.entity.MovieItem
+import com.nyp.sit.movieviewer_advanced_starter_project.entity.MovieItem
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_item_detail.*
 

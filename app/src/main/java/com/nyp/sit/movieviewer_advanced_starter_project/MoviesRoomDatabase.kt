@@ -1,10 +1,10 @@
-package com.nyp.sit.movieviewer_intermediate_starter_project
+package com.nyp.sit.movieviewer_advanced_starter_project
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.nyp.sit.movieviewer_intermediate_starter_project.entity.MovieItem
+import com.nyp.sit.movieviewer_advanced_starter_project.entity.MovieItem
 import kotlinx.coroutines.CoroutineScope
 
 @Database(entities = [MovieItem::class], version = 1, exportSchema = false)

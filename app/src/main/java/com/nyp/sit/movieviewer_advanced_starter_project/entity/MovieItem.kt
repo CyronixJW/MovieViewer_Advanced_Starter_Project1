@@ -1,7 +1,6 @@
-package com.nyp.sit.movieviewer_intermediate_starter_project.entity
+package com.nyp.sit.movieviewer_advanced_starter_project.entity
 
 import androidx.room.*
-import java.util.concurrent.Flow
 import java.io.Serializable
 
 @Entity(tableName = "MovieItem_table")

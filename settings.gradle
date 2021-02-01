@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "MovieViewer_Intermediate_Starter_Project"
+rootProject.name = "MovieViewer_Advanced_Starter_Project"
