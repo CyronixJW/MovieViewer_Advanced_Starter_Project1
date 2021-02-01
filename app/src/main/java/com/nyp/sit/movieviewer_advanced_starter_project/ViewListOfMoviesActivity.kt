@@ -29,7 +29,7 @@ class ViewListOfMoviesActivity : AppCompatActivity() {
 
 
     private var displayType = SHOW_BY_TOP_RATED
-    var moviesConvertList = ArrayList<MovieItem>()
+
     private val moviesViewModel: MoviesViewModel by viewModels()
     {
         MoviesViewModelFactory((application as MyMovies).repo)
@@ -107,7 +107,7 @@ class ViewListOfMoviesActivity : AppCompatActivity() {
                                 }
                             }
                             moviesViewModel.allMovies.observe(this@ViewListOfMoviesActivity, Observer {
-
+                                var moviesConvertList = ArrayList<MovieItem>()
 
                                 it.map {
                                     moviesConvertList.add(it)
@@ -181,9 +181,11 @@ class ViewListOfMoviesActivity : AppCompatActivity() {
             R.id.sortPopular -> {
 
                 loadMovieData(SHOW_BY_POPULAR)
+                moviesViewModel.deleteAll()
             }
             R.id.sortTopRated -> {
                 loadMovieData(SHOW_BY_TOP_RATED)
+                moviesViewModel.deleteAll()
             }
 
         }
