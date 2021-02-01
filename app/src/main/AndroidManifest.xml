@@ -3,23 +3,33 @@
     package="com.nyp.sit.movieviewer_advanced_starter_project">
 
     <application
+        android:name=".MyMovies"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MovieViewer_Intermediate_Starter_Project"
-        android:name="com.nyp.sit.movieviewer_advanced_starter_project.MyMovies">
-        <activity android:name="com.nyp.sit.movieviewer_advanced_starter_project.ViewListOfMoviesActivity" android:configChanges="orientation|screenSize">
+        android:theme="@style/Theme.MovieViewer_Intermediate_Starter_Project">
+        <activity android:name=".Login"></activity>
+        <activity android:name=".Register">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name=".Register" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ViewListOfMoviesActivity"
+            android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        <activity android:name="com.nyp.sit.movieviewer_advanced_starter_project.ItemDetailActivity" android:parentActivityName="com.nyp.sit.movieviewer_advanced_starter_project.ViewListOfMoviesActivity"/>
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ItemDetailActivity"
+            android:parentActivityName=".ViewListOfMoviesActivity" />
     </application>
 
 </manifest>

@@ -9,6 +9,12 @@ android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
 
+    buildFeatures{
+
+        viewBinding true
+
+    }
+
     defaultConfig {
         applicationId "com.nyp.sit.movieviewer_advanced_starter_project"
         minSdkVersion 26
