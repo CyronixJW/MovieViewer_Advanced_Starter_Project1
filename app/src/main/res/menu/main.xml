@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/menu_sort_popular"
+        app:showAsAction="never"
+        android:id="@+id/sortPopular"
+        />
+
+
+    <item
+        android:title="@string/menu_sort_top_rated"
+        app:showAsAction="never"
+        android:id="@+id/sortTopRated"
+        />
+
+
+    <item
+        android:title="@string/view_my_fav"
+        app:showAsAction="never"
+        android:id="@+id/viewFav"
+        />
+</menu>

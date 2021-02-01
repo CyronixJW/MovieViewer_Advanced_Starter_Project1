@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MovieViewer_Intermediate_Starter_Project</string>
+    <string name="menu_sort_popular">Sort by Popularity</string>
+    <string name="menu_sort_top_rated">Sort by Ratings</string>
+    <string name="moviedb_api_key">b29dbb8de757f3135a8fce926d56efa3</string>
+    <string name="view_my_fav">View my fav</string>
+</resources>
