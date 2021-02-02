@@ -65,7 +65,49 @@
         android:id="@+id/btn_register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="runRegister"
         android:text="Register"></Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verification Code"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <EditText
+            android:id="@+id/verificationET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter verification code" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+        <Button
+            android:id="@+id/btn_verify"
+            android:layout_width="0.5dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:onClick="runVerificationCode"
+            android:text="Verify" />
+        <Button
+            android:id="@+id/btn_resendverify"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:onClick="runResendVerificationCode"
+            android:text="Resend Code" />
+        </LinearLayout>
+
+
+
 
 
 
