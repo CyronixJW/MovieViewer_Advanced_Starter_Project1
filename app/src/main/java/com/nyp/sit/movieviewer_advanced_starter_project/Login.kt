@@ -34,8 +34,14 @@ class Login : AppCompatActivity() {
 
             override fun onResult(result: UserStateDetails?) {
                 Log.d("CognitoLab", result?.userState?.name.toString())
-                var i = Intent(this@Login, ViewListOfMoviesActivity::class.java)
-                startActivity(i)
+                if(result?.userState?.name.toString() == "SIGNED_IN")
+                {
+
+                    var i = Intent(this@Login, ViewListOfMoviesActivity::class.java)
+                    startActivity(i)
+
+                }
+
 
 
             }
